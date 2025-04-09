@@ -17,7 +17,7 @@ export default function Theme(props) {
           </IconButton>)
          :(
            <IconButton onClick={()=>setTheme('dark')}>
-               <BedtimeOutlinedIcon style={{color:"black"}} fontSize='large' />
+               <BedtimeOutlinedIcon style={{color:"gray"}} fontSize='large' />
            </IconButton>)
       }
     </Stack>
